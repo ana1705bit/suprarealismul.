@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Suprarealism</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Suprarealismul</h1>
+<p>Arta viselor și a imaginației</p>
+</header>
+
+<div class="buttons">
+
+<button onclick="showSection('notiune')">Noțiune</button>
+<button onclick="showSection('istorie')">Istorie</button>
+<button onclick="showSection('caracteristici')">Caracteristici</button>
+<button onclick="showSection('artisti')">Artiști</button>
+<button onclick="showSection('opere')">Opere</button>
+<button onclick="showSection('impact')">Impact</button>
+
+</div>
+
+
+<section id="notiune" class="content">
+<h2>Noțiune</h2>
+<p>
+Suprarealismul este un curent artistic și literar apărut în secolul XX,
+care urmărește exprimarea liberă a imaginației și a subconștientului.
+Artiștii suprarealisti încearcă să creeze imagini inspirate din vise,
+emoții și gânduri ascunse ale minții umane.
+</p>
+</section>
+
+
+<section id="istorie" class="content">
+<h2>Istoria suprarealismului</h2>
+<p>
+Suprarealismul a apărut în anul 1924, când poetul André Breton
+a publicat Manifestul Suprarealist. Curentul s-a dezvoltat în
+Franța și s-a răspândit rapid în Europa și în lume.
+</p>
+
+<p>
+Artiștii erau influențați de teoriile psihologului Sigmund Freud
+despre subconștient și vise. Ei considerau că imaginația și
+gândirea liberă sunt mai importante decât logica rigidă.
+</p>
+</section>
+
+
+<section id="caracteristici" class="content">
+<h2>Caracteristici</h2>
+
+<ul>
+<li>imagini fantastice</li>
+<li>elemente inspirate din vis</li>
+<li>combinații neobișnuite de obiecte</li>
+<li>simboluri misterioase</li>
+<li>libertate totală a imaginației</li>
+</ul>
+
+<p>
+În picturile suprarealiste apar deseori peisaje imposibile,
+obiecte deformate sau situații care nu pot exista în realitate.
+</p>
+</section>
+
+
+<section id="artisti" class="content">
+<h2>Artiști importanți</h2>
+
+<p>
+Salvador Dalí – celebru pentru picturile sale cu ceasuri topite.
+</p>
+
+<p>
+René Magritte – cunoscut pentru picturile misterioase și simbolice.
+</p>
+
+<p>
+Max Ernst – artist care a experimentat tehnici inovatoare și
+imagini fantastice.
+</p>
+
+</section>
+
+
+<section id="opere" class="content">
+<h2>Opere celebre</h2>
+
+<ul>
+<li>Persistența memoriei – Salvador Dalí</li>
+<li>Fiul omului – René Magritte</li>
+<li>Europa după ploaie – Max Ernst</li>
+</ul>
+
+<p>
+Aceste lucrări sunt considerate simboluri ale artei suprarealiste
+și ilustrează imaginația nelimitată a artiștilor.
+</p>
+
+</section>
+
+
+<section id="impact" class="content">
+<h2>Impact</h2>
+
+<p>
+Suprarealismul a influențat nu doar pictura, ci și literatura,
+filmul, fotografia și designul modern.
+</p>
+
+<p>
+Astăzi, ideile suprarealiste sunt folosite în artă digitală,
+publicitate și cinematografie.
+</p>
+
+</section>
+
+
+<script>
+
+function showSection(id){
+
+let sections=document.querySelectorAll(".content");
+
+sections.forEach(function(section){
+section.style.display="none";
+});
+
+document.getElementById(id).style.display="block";
+
+}
+
+</script>
+
+</body>
+  </html>
